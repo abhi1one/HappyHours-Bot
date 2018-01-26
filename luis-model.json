@@ -1,0 +1,84 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "LuisBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AskName"
+    },
+    {
+      "name": "Bye"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Name"
+    },
+    {
+      "name": "Stay"
+    }
+  ],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "Near",
+      "mode": true,
+      "words": "near,around,close,nearby",
+      "activated": true
+    },
+    {
+      "name": "Show",
+      "mode": true,
+      "words": "show,find,look,search",
+      "activated": true
+    }
+  ],
+  "utterances": [
+    {
+      "text": "What is your name",
+      "intent": "AskName",
+      "entities": []
+    },
+    {
+      "text": "Your name",
+      "intent": "AskName",
+      "entities": []
+    },
+    {
+      "text": "May I know your name",
+      "intent": "AskName",
+      "entities": []
+    },
+    {
+      "text": "Can I get your name",
+      "intent": "AskName",
+      "entities": []
+    },
+    {
+      "text": "Name please",
+      "intent": "AskName",
+      "entities": []
+    },
+    {
+      "text": "Bye",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "Good bye",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "See you again",
+      "intent": "Bye",
+      "entities": []
+    },
+    {
+      "text": "got to go",
+      "intent": "Bye",
+      "entities": []
+    }
+  ]
+}
